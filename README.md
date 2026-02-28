@@ -1,5 +1,5 @@
--[SimpleStorage](SimpleStorage.sol)
--[Simple_Storage](Simple_Storage.sol)
+- [SimpleStorage](SimpleStorage.sol)
+- [Simple_Storage](Simple_Storage.sol)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
