@@ -1,4 +1,3 @@
--[SimpleStorage.sol](SimpleStorage)
 -[Simple_Storage.sol](Simple_Storage)
 
 ## Simple_Storage
