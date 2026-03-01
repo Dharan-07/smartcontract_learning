@@ -31,6 +31,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "findNickName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_nickName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -150,11 +169,11 @@
 	},
 	"sources": {
 		"Simple_Storage.sol": {
-			"keccak256": "0xb477209e28e2fa8a6b549c1de9e94e34912541b839ed5c65db087f748de2b27b",
+			"keccak256": "0xa6e4f7a3299b082773d4e66a4bac4b29d6f456cea2a6560af7a76ac85826e801",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://82364bc8081903b27e66a64b8a46abc270bc389559fd02e2f50194280453a0d0",
-				"dweb:/ipfs/QmfM6jGqQCfm6tK2UrDm3sB7iKq6AmfMD8HKcf8P2EYLer"
+				"bzz-raw://d2ef6971f290050f1d2c5c53c2739196c6e2fa2aa53a39ff501972b94997cd71",
+				"dweb:/ipfs/Qmewj9LQGXQvvk7CT5g7jNKiBciCT4bCbisrtbKsyV9KNX"
 			]
 		}
 	},

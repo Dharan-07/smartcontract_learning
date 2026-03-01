@@ -19,6 +19,7 @@ contract SimpleStorage {
 
     mapping(string _name => uint256) public nameToFavNumber;
     mapping(string _nickName => uint256) public nickNameToFavNum;
+    mapping(string _name => string _nickName) public findNickName;
 
     function store (uint256 _favNumber) public {
         myFavNumber = _favNumber;
@@ -32,5 +33,6 @@ contract SimpleStorage {
         listOfPeople.push( Person(_favNumber,_name, _nickName));
         nameToFavNumber [_name] = _favNumber;
         nickNameToFavNum[_nickName] = _favNumber;
+        findNickName[_name] = _nickName;
     } 
 }
