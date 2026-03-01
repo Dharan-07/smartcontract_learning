@@ -10,13 +10,15 @@ contract SimpleStorage {
     struct Person {
         uint256 favNumber;
         string name;
+        string nickName;
     } // create a new type Person using struct
 
     Person[] public listOfPeople; // array of type Person
 
     // Person public CR7 /* veriable of type Person */ = Person({favNumber : 7, name : "ronaldo"});
 
-    mapping(string => uint256) public nameToFavNumber;
+    mapping(string _name => uint256) public nameToFavNumber;
+    mapping(string _nickName => uint256) public nickNameToFavNum;
 
     function store (uint256 _favNumber) public {
         myFavNumber = _favNumber;
@@ -26,8 +28,9 @@ contract SimpleStorage {
         return myFavNumber;
     } // this function used to retrieve the modified value 
 
-    function addPerson(string memory _name, uint256 _favNumber) public {
-        listOfPeople.push( Person(_favNumber,_name));
+    function addPerson(string memory _name, uint256 _favNumber, string memory _nickName) public {
+        listOfPeople.push( Person(_favNumber,_name, _nickName));
         nameToFavNumber [_name] = _favNumber;
+        nickNameToFavNum[_nickName] = _favNumber;
     } 
 }
