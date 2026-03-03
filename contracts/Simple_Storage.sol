@@ -36,3 +36,5 @@ contract SimpleStorage {
         findNickName[_name] = _nickName;
     } 
 }
+
+contract importexample{}
