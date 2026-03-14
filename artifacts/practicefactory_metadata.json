@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Practice",
+				"outputs": [
+					{
+						"internalType": "contract practice",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createpracticecontract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"practicefactory.sol": "practicefactory"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"practice.sol": {
+			"keccak256": "0xd5d3a24153950222845b3e710a7e85574d8706a5dd3c18dab07c9947d7432a87",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eb98b25bc3dc5f68c6ca5d9d72c1eb5a10f5190b4a7e56eafba19bc309589119",
+				"dweb:/ipfs/QmUsTaQoQevUbg9xDmXn5jYRfR6F7vwtU9Z3TutZhUziMQ"
+			]
+		},
+		"practicefactory.sol": {
+			"keccak256": "0xfba3327f6a5bee5d400154097cc27c13952c88a9e8ea8dc6c48194fb7ad0c52a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://235ad2bb112b0c0fa31a58af74f1a77ef59e7d5490e5d044d4872b2f55506acf",
+				"dweb:/ipfs/QmV3pGL4T8RJFtGEi5JLxCaCf5vAAZaJ2WR5efFP5gKE5y"
+			]
+		}
+	},
+	"version": 1
+}
