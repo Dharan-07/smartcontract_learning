@@ -46,6 +46,64 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getContact",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "getcontacts",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -76,11 +134,11 @@
 	},
 	"sources": {
 		"practice.sol": {
-			"keccak256": "0x52d2cb270ac0662cfe4293a4e60148e5c5005610786f46a4020c3c68c03e9a4c",
+			"keccak256": "0xd5d3a24153950222845b3e710a7e85574d8706a5dd3c18dab07c9947d7432a87",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1c65f1be9815617fb767f01377df10f57cb284168b822d31aada509047d3deab",
-				"dweb:/ipfs/QmTUtypQVftHHE21aCxujmBuU3qc9yuqz81LdNFcrAHXZw"
+				"bzz-raw://eb98b25bc3dc5f68c6ca5d9d72c1eb5a10f5190b4a7e56eafba19bc309589119",
+				"dweb:/ipfs/QmUsTaQoQevUbg9xDmXn5jYRfR6F7vwtU9Z3TutZhUziMQ"
 			]
 		}
 	},
