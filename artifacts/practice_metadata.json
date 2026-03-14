@@ -104,6 +104,32 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -134,11 +160,11 @@
 	},
 	"sources": {
 		"practice.sol": {
-			"keccak256": "0xd5d3a24153950222845b3e710a7e85574d8706a5dd3c18dab07c9947d7432a87",
+			"keccak256": "0xd18a7fa789b4835914d47c20e6bdfa452d79e58bad507101603e149d14ef4304",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eb98b25bc3dc5f68c6ca5d9d72c1eb5a10f5190b4a7e56eafba19bc309589119",
-				"dweb:/ipfs/QmUsTaQoQevUbg9xDmXn5jYRfR6F7vwtU9Z3TutZhUziMQ"
+				"bzz-raw://fbed985d1824314bfbfde448c569960fd3711c15f7b29abcf7a16160a511421b",
+				"dweb:/ipfs/QmNrgKSqsQPdY3AJTpqerKwh4UssGdvhRaNXUNdmiu5ZxM"
 			]
 		}
 	},

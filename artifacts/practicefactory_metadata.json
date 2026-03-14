@@ -7,7 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "Practice",
+				"name": "createpracticecontract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listofpracticecontract",
 				"outputs": [
 					{
 						"internalType": "contract practice",
@@ -19,8 +32,38 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "createpracticecontract",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_practiceIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "pfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_practiceIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newPracticeNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "pfStore",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -54,19 +97,19 @@
 	},
 	"sources": {
 		"practice.sol": {
-			"keccak256": "0xd5d3a24153950222845b3e710a7e85574d8706a5dd3c18dab07c9947d7432a87",
+			"keccak256": "0xd18a7fa789b4835914d47c20e6bdfa452d79e58bad507101603e149d14ef4304",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eb98b25bc3dc5f68c6ca5d9d72c1eb5a10f5190b4a7e56eafba19bc309589119",
-				"dweb:/ipfs/QmUsTaQoQevUbg9xDmXn5jYRfR6F7vwtU9Z3TutZhUziMQ"
+				"bzz-raw://fbed985d1824314bfbfde448c569960fd3711c15f7b29abcf7a16160a511421b",
+				"dweb:/ipfs/QmNrgKSqsQPdY3AJTpqerKwh4UssGdvhRaNXUNdmiu5ZxM"
 			]
 		},
 		"practicefactory.sol": {
-			"keccak256": "0xfba3327f6a5bee5d400154097cc27c13952c88a9e8ea8dc6c48194fb7ad0c52a",
+			"keccak256": "0x95f3a13108c5865942eccb3a141fd97e6191ec917d7bf85306939d733abd85e9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://235ad2bb112b0c0fa31a58af74f1a77ef59e7d5490e5d044d4872b2f55506acf",
-				"dweb:/ipfs/QmV3pGL4T8RJFtGEi5JLxCaCf5vAAZaJ2WR5efFP5gKE5y"
+				"bzz-raw://87bf4028c02eebb561c3b62802eaae2e3a8681dc6cb356d6afcd209faeb21826",
+				"dweb:/ipfs/QmbFoHonJJVETGVbfoDtADSzifeeMG3TAwByCqg3MPNNkw"
 			]
 		}
 	},

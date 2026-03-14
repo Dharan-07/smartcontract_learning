@@ -3,6 +3,8 @@ pragma solidity ^0.8.18;
 
 contract practice{
 
+    uint256 mynum;
+
     struct person{
         uint256 num;
         string name;
@@ -12,7 +14,13 @@ contract practice{
     person[] private contacts;
 
     mapping(string => uint256) public findNumByName ;
-    
+
+    function store(uint256 _num) public {
+        mynum = _num;
+    }
+    function retrieve() public view returns (uint256) {
+        return mynum;
+    }
 
     function addToContacts(uint256 _num, string memory _name, string memory _nickName) public {
         contacts.push(person(_num,_name,_nickName));
