@@ -2,7 +2,7 @@
 pragma solidity ^0.8.18;
 
 //import "./Simple_Storage.sol"; // for importing whole file
-import {SimpleStorage} from "./Simple_Storage.sol"; // for importing specific contract
+import {SimpleStorage} from "./SimpleStorage.sol"; // for importing specific contract
 //import {SimpleStorage , importexample} from "./Simple_Storage.sol"; // for importing multiple contracts specifically
 
 contract StorageFactory{

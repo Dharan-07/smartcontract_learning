@@ -21,7 +21,7 @@ contract SimpleStorage {
     mapping(string _nickName => uint256) public nickNameToFavNum;
     mapping(string _name => string _nickName) public findNickName;
 
-    function store (uint256 _favNumber) public {
+    function store (uint256 _favNumber) public virtual{
         myFavNumber = _favNumber;
     }  // this function use to update the state variable called favNumber
 
