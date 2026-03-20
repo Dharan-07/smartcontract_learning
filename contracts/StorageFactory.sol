@@ -5,7 +5,7 @@ pragma solidity ^0.8.18;
 import {SimpleStorage} from "./Simple_Storage.sol"; // for importing specific contract
 //import {SimpleStorage , importexample} from "./Simple_Storage.sol"; // for importing multiple contracts specifically
 
-contract Storage_Factory{
+contract StorageFactory{
     
     SimpleStorage[] public listOfSimpleStorageContracts; // to store list of contract addresses
 
