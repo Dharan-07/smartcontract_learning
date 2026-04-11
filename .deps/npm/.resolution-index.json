@@ -60,5 +60,13 @@
         "file": "SolByEg/HelloWorld.sol"
       }
     }
+  },
+  "SolByEg/counter.sol": {
+    "__sources__": {
+      "SolByEg/counter.sol": {
+        "content": "//SPDX-License-Identifier:MIT\r\npragma solidity ^0.8.18;\r\n\r\ncontract counter{\r\n\r\n    uint256 public count;\r\n    function get()public view returns(uint256){\r\n        return count;\r\n    }\r\n\r\n    function inc()public{\r\n        count +=1;\r\n    }\r\n    function dec()public{\r\n        count -=1;\r\n    }\r\n}",
+        "file": "SolByEg/counter.sol"
+      }
+    }
   }
 }
